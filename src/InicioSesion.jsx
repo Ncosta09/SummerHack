@@ -22,7 +22,8 @@ function InicioSesion() {
     if(pass == "123456"){
       console.log("entro");
       setMostrarTituloFinal(true);
-      setError(false)
+      setError(false);
+      confetti();
     }else{
       console.log("NO entro");
       setMostrarTituloFinal(false);
