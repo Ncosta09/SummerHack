@@ -19,12 +19,12 @@ function InicioSesion() {
 
   let handleClick = () => {
     console.log(pass);
-    if(pass == "123456"){
+    if (pass == "123456") {
       console.log("entro");
       setMostrarTituloFinal(true);
       setError(false);
       confetti();
-    }else{
+    } else {
       console.log("NO entro");
       setMostrarTituloFinal(false);
       setError(true);
@@ -50,7 +50,7 @@ function InicioSesion() {
 
             <div className='contrasena'>
               <label htmlFor="password">Contraseña:</label>
-              <input type="password" name="password" id="pass" onBlur={handleBlurPass}/>
+              <input type="password" name="password" id="pass" onBlur={handleBlurPass} />
               {mostrarError && (
                 <p className='errorPass'>Contraseña incorrecta</p>
               )}

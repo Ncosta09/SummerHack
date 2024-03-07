@@ -25,7 +25,7 @@
   margin-bottom: 20px;
 }
 
-.tituloFinal{
+.tituloFinal {
   width: 500px;
   height: 60px;
   background-color: #bbeeff;
@@ -38,7 +38,7 @@
   margin-top: 20px;
 }
 
-.tituloFinal h1{
+.tituloFinal h1 {
   max-width: 490px;
   white-space: nowrap;
   overflow: hidden;
@@ -86,7 +86,7 @@
   height: 25px;
 }
 
-.errorPass{
+.errorPass {
   margin: 0px;
   padding: 0px;
   color: red;
